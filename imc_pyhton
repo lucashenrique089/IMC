@@ -1,0 +1,11 @@
+#projeto para IMC onde vou pesquisar e realizar a ajuda a saber como conseguir diminuir o peso
+#depois colocar as infomações sobre se está acima do peso, abaixo do peso e ou peso ideal 
+nome = input('Digita seu nome: ');
+sobrenome = input('Digita se sobre nome: ');
+cidade = input('Digite sua cidade: ');
+peso = float(input('fale seu peso: '));
+altura = float(input('Fale sua altura: '))
+
+imc = peso / (altura * 2);
+
+print('O aluno {} tem o sobrenome {} da cidade de {}, tem o IMC de {:.2f} ' .format(nome, sobrenome, cidade, imc))
